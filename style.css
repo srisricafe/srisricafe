@@ -49,6 +49,35 @@ h6 {
 	letter-spacing: 1px;
 }
 
+
+.order-buttons {
+  margin-top: 20px;
+}
+
+.order-buttons .btn {
+  padding: 12px 22px;
+  margin-right: 12px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s ease;
+}
+
+.btn-swiggy {
+  background-color: #fc8019;
+}
+
+.btn-zomato {
+  background-color: #e23744;
+}
+
+.order-buttons .btn:hover {
+  opacity: 0.85;
+}
+
+
 .navbar .nav-item {
 	margin: 0 5px;
 	padding: 0;
@@ -625,3 +654,4 @@ h3 {
 	font-size: 10px;
 }
 }
+
